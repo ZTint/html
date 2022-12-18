@@ -1,0 +1,70 @@
+﻿<html>
+<body>
+
+<!--原文-->
+<p>有序列表：</p>
+<ol>
+  <li>打开冰箱门</li>
+  <li>把大象放进去</li>
+  <li>关上冰箱门</li>
+</ol>
+
+<p>无序列表：</p>
+<ul>
+  <li >雪碧</li>
+  <li>可乐</li>
+  <li>凉茶</li>
+</ul>
+
+<!--下面更改-->
+<p>有序列表：</p>
+<ol class = "mytest1">
+  <li >打开冰箱门</li>
+  <li>把大象放进去</li>
+  <li>关上冰箱门</li>
+</ol>
+
+<p>无序列表：</p>
+<ul>
+  <li class = "mytest2">雪碧</li>
+  <li class = "t1">可乐</li>
+  <li class="t2">凉茶</li>
+  <li><a href="https://raw.githubusercontent.com/ZTint/html/main/1.html">列表1</a></li>
+  <li><a href="https://raw.githubusercontent.com/ZTint/html/main/2.html">列表2</a></li>
+  <li><a href="https://raw.githubusercontent.com/ZTint/html/main/3.html">列表3</a></li>
+  
+</ul>
+
+
+<style>
+
+/*li { list-style: url("https://api.iowen.cn/favicon/www.gopojie.com.png");}*/
+
+.mytest1{ /* 这个是能在ol 活着ul里面用*/
+	padding-left: 80px;
+	list-style-image:url(https://api.iowen.cn/favicon/www.gopojie.com.png);
+}
+.mytest2{
+	padding-left: 80px;
+	list-style-image:url(https://api.iowen.cn/favicon/www.gopojie.com.png);	
+}
+.t1::marker{
+	 font-size: 30px;
+     content: "😍";	 
+}
+.t2::marker{
+	 font-size: 30px;
+     content: "😍";	 
+}
+
+/*
+ li {
+     list-style: none;
+     background:url(https://api.iowen.cn/favicon/www.gopojie.com.png) no-repeat left;
+     padding-left: 5px;
+ }
+*/
+</style>
+
+</body>
+</html>
